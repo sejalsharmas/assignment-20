@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400..900&family=Crete+Round:ital@0;1&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=El+Messiri:wght@400..700&family=Jacquard+24+Charted&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Sedan+SC&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400..900&family=Crete+Round:ital@0;1&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=El+Messiri:wght@400..700&family=Jacquard+24+Charted&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Sedan+SC&family=Teko:wght@300..700&display=swap');
+     body{
+        background-color:#331a00;
+        margin: 0;
+        padding: 0;
+     }
+     .container{
+        display: flex;
+        min-height: 100vh;
+     }
+     .sidebar{
+       background-color: #331a00;
+       width: 300px;
+       border: 2px solid beige;
+       position: absolute;
+       height: 100%;
+     }
+     .menu-item{
+      background-color:#804200;
+      margin: 10px;
+      border-radius: 5px;
+      display: flex;
+     align-items: center;
+     padding: 3px 20px;
+     cursor: pointer;
+     margin-top: 20px;
+    }
+     .menu-icon{
+      height: 45px;
+     }
+     .menu-text{
+      color: #DCDC99;
+      font-family: "Roboto Slab", serif;
+      font-size: 21px;
+      margin-left: 10px;
+      text-decoration: none;
+     }
+     .menu-item2{
+      background-color:#804200;
+      margin: 10px;
+      border-radius: 5px;
+      display: flex;
+     align-items: center;
+     padding: 3px 20px;
+     margin-top:20px;
+     cursor: pointer;
+
+     }
+     .menu-icon2{
+      height: 45px;
+     }
+     .menu-text2{
+      color: #DCDC99;
+      font-family: "Roboto Slab", serif;
+      font-size: 21px;
+      margin-left: 10px;
+      text-decoration: none;
+    }
+    .menu-item3{
+      background-color:#804200;
+      margin: 10px;
+      border-radius: 5px;
+      display: flex;
+     align-items: center;
+     padding: 3px 20px;
+     margin-top: 20px;
+     cursor: pointer;
+
+     }
+     .menu-icon3{
+      height: 48px;
+     }
+     .menu-text3{
+      color: #DCDC99;
+      font-family: "Roboto Slab", serif;
+      font-size: 21px;
+      margin-left: 10px;
+      text-decoration: none;
+
+    }
+    .menu-item4{
+      background-color:#804200;
+      margin: 10px;
+      border-radius: 5px;
+      display: flex;
+     align-items: center;
+     padding: 3px 20px;
+     margin-top: 20px;
+     cursor: pointer;
+
+     }
+     .menu-icon4{
+      height: 45px;
+     }
+     .menu-text4{
+      color: #DCDC99;
+      font-family: "Roboto Slab", serif;
+      font-size: 21px;
+      margin-left: 10px;
+      text-decoration: none;
+    }
+    .active-menu{
+        background-color: black;
+    }
+    .content{
+        margin-left: 260px;
+        position: absolute;
+    }
+    .heading{
+        font-family: "Roboto Slab", serif;
+        font-size: 80px;
+        color: beige;
+        display: block;
+        text-align: center;
+        }
+        .text{
+            color: beige;
+            padding: 10px;
+            margin: 20px;
+            font-size: 50px;
+            text-align: center;
+
+        }
+        .subtext{
+            font-size: 20px;
+            color: beige;
+            padding: 10px;
+            margin: 20px;
+            margin-left: 50px;
+
+        }
+
+      
+    
+    /*Small devices*/
+       @media screen and (max-width: 600px) {
+        .sidebar{
+          display: none;
+        }
+    }
+     
+    
+    /*Normal Devices*/
+      @media screen and (min-width: 600px) and (max-width: 768px) {
+            .sidebar{
+              display: none;
+            }
+        }
+
+     /* Tablet Devices */
+      @media screen and (min-width: 769px) and (max-width: 992px) {
+        
+      }
