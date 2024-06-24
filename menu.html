@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400..900&family=Crete+Round:ital@0;1&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=El+Messiri:wght@400..700&family=Jacquard+24+Charted&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Sedan+SC&family=Teko:wght@300..700&display=swap');
+        body{
+        background-color:#331a00;
+        margin: 0;
+        padding: 0;
+     }
+     .container{
+        display: flex;
+        min-height: 100vh;
+     }
+     .sidebar{
+       background-color: #331a00;
+       width: 300px;
+       border: 2px solid beige;
+       position: absolute;
+       height: 100%;
+     }
+     .menu-item{
+      background-color:#804200;
+      margin: 10px;
+      border-radius: 5px;
+      display: flex;
+     align-items: center;
+     padding: 3px 20px;
+     cursor: pointer;
+     margin-top: 20px;
+   
+
+     }
+     .menu-icon{
+      height: 45px;
+     }
+     .menu-text{
+      color: #DCDC99;
+      font-family: "Roboto Slab", serif;
+      font-size: 21px;
+      margin-left: 10px;
+      margin-top:px;
+     }
+     .menu-item2{
+      background-color:#804200;
+      margin: 10px;
+      border-radius: 5px;
+      display: flex;
+     align-items: center;
+     padding: 3px 20px;
+     margin-top:20px;
+     cursor: pointer;
+
+     }
+     .menu-icon2{
+      height: 45px;
+     }
+     .menu-text2{
+      color: #DCDC99;
+      font-family: "Roboto Slab", serif;
+      font-size: 21px;
+      margin-left: 10px;
+      text-decoration: none;
+    }
+    .menu-item3{
+      background-color:#804200;
+      margin: 10px;
+      border-radius: 5px;
+      display: flex;
+     align-items: center;
+     padding: 3px 20px;
+     margin-top: 20px;
+     cursor: pointer;
+
+     }
+     .menu-icon3{
+      height: 48px;
+     }
+     .menu-text3{
+      color: #DCDC99;
+      font-family: "Roboto Slab", serif;
+      font-size: 21px;
+      margin-left: 10px;
+      text-decoration: none;
+
+    }
+    .menu-item4{
+      background-color:#804200;
+      margin: 10px;
+      border-radius: 5px;
+      display: flex;
+     align-items: center;
+     padding: 3px 20px;
+     margin-top: 20px;
+     cursor: pointer;
+
+     }
+     .menu-icon4{
+      height: 45px;
+     }
+     .menu-text4{
+      color: #DCDC99;
+      font-family: "Roboto Slab", serif;
+      font-size: 21px;
+      margin-left: 10px;
+      text-decoration: none;
+    }
+    .active-menu{
+        background-color: black;
+    }
+        .heading{
+        font-family: "Roboto Slab", serif;
+        font-size: 80px;
+        color: beige;
+        display: block;
+        text-align: center;
+        }
+        .text{
+            color: beige;
+            padding: 10px;
+            margin: 20px;
+            font-size: 50px;
+            text-align: center;
+
+        }
+        .subtext{
+            font-size: 20px;
+            color: beige;
+            padding: 10px;
+            margin: 20px;
+            margin-left: 50px;
+
+        }
+        .bottom_navigation_bar{
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          background-color: #331a00;
+          color: beige;
+          display: none;
+        }
+        .bottom_menu_icon{
+          height: 50px;
+          margin: 5px;
+          background-color: #804200;
+          border-radius: 5px;
+          justify-content: space-between;
+        }
+       
+    
+    
+      
+      /*Small devices*/
+       @media screen and (max-width: 600px) {
+        .sidebar{
+          display: none;
+        }
+        .bottom_navigation_bar{
+          display: flex;
+          justify-content: space-around;
+        }
+        body{
+            background-color: #331a00;
+        }
+        .content{
+          margin-left: 10px;
+          position: absolute;
+        }
+        .heading{
+         font-family: "Roboto Slab", serif;
+         font-size: 70px;
+         color: beige;
+         display: block;
+        margin-left: 10px;
+        margin-right:30 ;
+        }
+        .text{
+            color: beige;
+            font-size: 25px;
+            text-align: center;
+
+        }
+        .subtext{
+            font-size: 17px;
+            color: beige;
+            padding: 10px;
+            
+            margin-left: 10px;
+            text-align: center;
+            margin-bottom: 80px;
+
+        }
+        .bottom_menu_icon{
+          margin: 5px;
+          height: 50px;
+
+        }
+}
+      /*Normal Devices*/
+      @media screen and (min-width: 600px) and (max-width: 768px) {
+            .sidebar{
+              display: none;
+            }
+    .bottom_navigation_bar{
+      display: flex;
+      justify-content: space-around;
+    }
+    body{
+            background-color: #331a00;
+        }
+        .content{
+          margin-left: 10px;
+          position: absolute;
+        }
+        .heading{
+         font-family: "Roboto Slab", serif;
+         font-size: 70px;
+         color: beige;
+         display: block;
+        margin-left: 10px;
+        margin-right:30 ;
+        }
+        .text{
+            color: beige;
+            font-size: 25px;
+            text-align: center;
+
+        }
+        .subtext{
+            font-size: 17px;
+            color: beige;
+            padding: 10px;
+            
+            margin-left: 10px;
+            text-align: center;
+            margin-bottom: 80px;
+
+        }
+        .bottom_menu_icon{
+          height: 50px;
+          margin: 5px;
+        }
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+         <div class="menu-item">
+        <img src="./images/home.png" class="menu-icon">
+        <a href="index.html" class="menu-text"><b>HOME</b></a> 
+     </div>
+     <div class="menu-item2 active-menu">
+        <img src="./images/menu.png" class="menu-icon2">
+        <a href="menu.html"  class="menu-text2"><b>MENU</b></a> 
+     </div>
+     <div class="menu-item3">
+        <img src="./images/communication.png" class="menu-icon3">
+        <a href="contact_us.html"class="menu-text3"><b>CONTACT US</b></a> 
+     </div>
+     <div class="menu-item4">
+        <img src="./images/clipboard.png" class="menu-icon4">
+        <a href="your_orders.html" class="menu-text4"><b>YOUR ORDERS</b></a> 
+     </div>
+       </div>
+
+    <div class="content">
+        <span class="heading">MENU</span>
+            <h3 class="text">(Here is dummy menu information)</h3><br><br>
+            <p class="subtext">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula, urna eu fringilla feugiat,
+            metus odio dictum sapien, non sollicitudin nisl nulla vel turpis. Vivamus scelerisque orci nec
+            lectus posuere, ut tincidunt tortor feugiat. Integer nec dui magna. Phasellus a ex vel enim
+            efficitur malesuada. Sed in malesuada est, sit amet feugiat magna.
+
+            Why Choose Us?
+
+            Quality: Curabitur et lacus nec leo placerat pretium. Vivamus non eros at eros sagittis pretium ut
+            et sem.
+            Experience: Donec a justo vitae nisi lacinia tincidunt in sit amet tortor. Cras sed dui at sapien
+            ultrices congue.
+            Customer Satisfaction: Proin tristique lorem et venenatis sollicitudin. Suspendisse et libero a erat
+            aliquam congue.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+            Quisque venenatis eros vel diam fermentum, ac euismod nunc consequat. Nunc interdum metus at
+            vehicula varius. Aenean ac orci ac sem malesuada tincidunt.
+
+            Morbi scelerisque nulla ac ligula viverra, eget cursus tortor fringilla. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce tempor ligula nec enim
+            fermentum tincidunt. Ut at ipsum eros. Integer at sagittis leo. Nam auctor cursus purus, eget
+            fringilla arcu iaculis id.
+        </p>
+    </div>
+    </div>
+<div class="bottom_navigation_bar">
+    <a href="index.html">
+      <img class="bottom_menu_icon"   src="./images/home.png" alt="home picture">
+    </a>
+
+    <a href="menu.html">
+      <img class="bottom_menu_icon"    src="./images/menu.png" alt="home picture">
+    </a>
+
+    <a href="contact_us.html">
+      <img class="bottom_menu_icon"  src="./images/communication.png" alt="home picture">
+    </a>
+
+    <a href="your_orders.html">
+      <img class="bottom_menu_icon"   src="./images/clipboard.png" alt="home picture">
+    </a>
+</div>
+            
+    
+</body>
+</html>
